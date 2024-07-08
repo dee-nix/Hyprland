@@ -1,12 +1,11 @@
 {
     "modules-left": [
-        "hyprland/workspaces",
-        "tray"
+        "hyprland/workspaces"
     ],
     "modules-center": [
-        "clock"
+        "clock",
+        "tray"
     ],
-    /* "modules-right": ["tray", "custom/scratchpad-indicator", "pulseaudio", "custom/power"], */
     "modules-right": [
         "backlight",
         "pulseaudio",
@@ -29,7 +28,7 @@
         "format": "{ifname}",
         "format-wifi": "{icon} {bandwidthDownBytes}",
         "format-ethernet": "{icon} {bandwidthDownBytes}  {bandwidthUpBytes} ",
-        "format-disconnected": "󰌙",
+        //"format-disconnected": "󰌙",
         "tooltip-format": "{ipaddr}",
         "format-linked": "󰈁 {ifname} (No IP)",
         "tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
