@@ -5,10 +5,6 @@
     color: #ffffff;
     border-radius: 20px;
 }
-
-window {
-	/*font-weight: bold;*/
-}
 window#waybar {
     background: rgba(0, 0, 0, 0);
 }
