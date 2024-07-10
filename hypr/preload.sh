@@ -10,12 +10,12 @@ preload() {
 
     for wallpaper in $wallpapers; do
 
-        preload+="preload = "$wallpaper"\n"
-        wallpaperz+="wallpaper = $monitor, $wallpaper\n"
+        preload_str+="preload = "$wallpaper"\n"
+        wallpaper_str+="wallpaper = $monitor, $wallpaper\n"
 
     done
 
-    echo -en "$preload\n$wallpaperz" > ~/.config/hypr/hyprpaper.conf
+    echo -en "$preload_str\n$wallpaper_str" > ~/.config/hypr/hyprpaper.conf
 
 }
 
