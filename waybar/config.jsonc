@@ -28,7 +28,7 @@
         "format": "{ifname}",
         "format-wifi": "{icon} {bandwidthDownBytes}",
         "format-ethernet": "{icon} {bandwidthDownBytes}  {bandwidthUpBytes} ",
-        //"format-disconnected": "󰌙",
+        "format-disconnected": "󰌙",
         "tooltip-format": "{ipaddr}",
         "format-linked": "󰈁 {ifname} (No IP)",
         "tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
