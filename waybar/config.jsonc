@@ -1,10 +1,10 @@
 {
     "modules-left": [
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+	"tray"
     ],
     "modules-center": [
-        "clock",
-        "tray"
+        "clock"
     ],
     "modules-right": [
         "backlight",
