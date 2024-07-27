@@ -4,7 +4,7 @@ wallpaper() {
 
     monitor="eDP-1"
 
-    directory="$HOME/Pictures/Wallpapers"
+    directory="$HOME/Wallpapers"
 
     wallpapers=($directory/*)
 
